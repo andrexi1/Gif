@@ -1,14 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const ImageItem = ({title, url}) => {
+const ImageItem = ({ title, url }) => {
   return (
     <div>
-      {title} <br />
-      {url}
       <img src={url} alt={title} />
-      <h2>image ImageItem</h2>
+      <p>{title}</p>
     </div>
   );
-}
+};
 
 export default ImageItem;
